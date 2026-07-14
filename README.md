@@ -33,18 +33,22 @@ LearnPlaywright3x/
 │   └── 06_Identifer_IQ.js                    # identifier edge cases, Unicode, keywords
 ├── 04_chapter_Literal/
 │   ├── 07_Literal.js                         # literal types + typeof
-│   ├── 08_null_undefined.js                  # null vs undefined deep dive
+│   ├── 08_Null_Undefined.js                  # null vs undefined deep dive
 │   ├── 09_Null_IQ.js                         # null literal one-liner
-│   ├── 10_Literal.js                         # number literal formats (hex, octal, exponent)
-│   ├── 11_Number.js                          # integer/float/binary/octal/hex literals
-│   └── 12_Number_Part2.js                    # numeric separators, BigInt, Infinity, NaN
+│   ├── 10_NumberLiteral.js                   # number literal formats (hex, octal, exponent)
+│   ├── 11_NumberLiterals.js                  # integer/float/binary/octal/hex literals
+│   └── 12_NumberLiterals_Part2.js            # numeric separators, BigInt, Infinity, NaN
 └── IQ_Notes/
     ├── README.md                             # reusable prompt template for new IQ notes
-    ├── Source_Code_ByteCODE_Binary_IQ.md      # source vs bytecode vs machine code
+    ├── 00_Source_Code_ByteCODE_Binary_IQ.md   # source vs bytecode vs machine code
+    ├── 00_Stack_vs_HeapMemory.md             # stack vs heap memory model
+    ├── 00_compiler_vs_Interpreter.md         # compiler vs interpreter comparison
     ├── 01_Identifier_Rules.md                 # identifier rules reference
     ├── 02_Keyword_Notes.md                    # all JS reserved keywords by category
     ├── 03_commands_mac.md                     # VS Code shortcuts — macOS
-    └── 03_commands_win.md                     # VS Code shortcuts — Windows
+    ├── 03_commands_win.md                     # VS Code shortcuts — Windows
+    ├── 04_Identifier_Research.md              # identifier deep-dive research
+    └── 04_Literal_Research.md                 # literal deep-dive research
 ```
 
 ---
@@ -189,11 +193,15 @@ Concept explainers, generated on demand via the prompt template in [`IQ_Notes/RE
 
 | File | Covers |
 |------|--------|
-| [`Source_Code_ByteCODE_Binary_IQ.md`](IQ_Notes/Source_Code_ByteCODE_Binary_IQ.md) | Source code vs bytecode vs binary/machine code, V8 compilation pipeline |
+| [`00_Source_Code_ByteCODE_Binary_IQ.md`](IQ_Notes/00_Source_Code_ByteCODE_Binary_IQ.md) | Source code vs bytecode vs binary/machine code, V8 compilation pipeline |
+| [`00_Stack_vs_HeapMemory.md`](IQ_Notes/00_Stack_vs_HeapMemory.md) | Stack vs heap memory model |
+| [`00_compiler_vs_Interpreter.md`](IQ_Notes/00_compiler_vs_Interpreter.md) | Compiler vs interpreter comparison |
 | [`01_Identifier_Rules.md`](IQ_Notes/01_Identifier_Rules.md) | Legal identifier characters, case sensitivity, naming conventions |
 | [`02_Keyword_Notes.md`](IQ_Notes/02_Keyword_Notes.md) | Every JS reserved keyword, grouped by category |
 | [`03_commands_mac.md`](IQ_Notes/03_commands_mac.md) | VS Code keyboard shortcuts — macOS |
 | [`03_commands_win.md`](IQ_Notes/03_commands_win.md) | VS Code keyboard shortcuts — Windows |
+| [`04_Identifier_Research.md`](IQ_Notes/04_Identifier_Research.md) | Identifier deep-dive research |
+| [`04_Literal_Research.md`](IQ_Notes/04_Literal_Research.md) | Literal deep-dive research |
 
 ---
 
