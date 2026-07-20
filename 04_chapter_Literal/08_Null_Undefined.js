@@ -43,7 +43,7 @@ console.log(x);
 // 2. null
 // --------------------------------------------------------
 let profilePicture = null;
-console.log(profilePicture);
+console.log(profilePicture); // null
 console.log(typeof profilePicture); // "object"  <-- known JS quirk!
 
 
