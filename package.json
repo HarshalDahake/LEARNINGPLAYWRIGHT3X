@@ -1,0 +1,24 @@
+{
+  "name": "learningplaywright3x",
+  "version": "1.0.0",
+  "description": "A learning repository tracking JavaScript fundamentals from first principles, alongside RICE-prompt notes for automation framework generation and a growing `IQ_Notes` reference library (interview-style concept explainers).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshalDahake/LEARNINGPLAYWRIGHT3X.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HarshalDahake/LEARNINGPLAYWRIGHT3X/issues"
+  },
+  "homepage": "https://github.com/HarshalDahake/LEARNINGPLAYWRIGHT3X#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
