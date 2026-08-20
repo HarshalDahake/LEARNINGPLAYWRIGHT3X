@@ -1,5 +1,5 @@
-let max=0;
 let arr = [20,30,10,101,1,5,99];
+let max=arr[0];
 
 for(let i=0; i<arr.length; i++)
 {
