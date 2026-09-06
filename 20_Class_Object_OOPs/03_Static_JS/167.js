@@ -2,20 +2,16 @@ class Student
 {
     static collegeName = "PW AT Batch";
 
-    constructor(name) 
-    {
+    constructor(name) {
         this.name = name;
     }
-    static display() 
-    {
-        console.log(this.name + " are part of the ", Student.collegeName);
+    // static display() { // Overiding not allowed in Javascript.
+    //     console.log(this.name + " are part of the ", Student.collegeName);
+    // }
+    static display(name) {
+        console.log(name + " are part of the ", Student.collegeName);
     }
-    static display(name) 
-    {
-        console.log(this.name + " are part of the ", Student.collegeName);
-    }
-    nsf()
-    {
+    nsf(){
         console.log(this.name);
     }
 }
@@ -27,9 +23,10 @@ console.log(Student.collegeName); // call by classname : static
 console.log(harshal.name); // call by object : nonStatic
 console.log(namita.name);
 console.log(mitansh.name);
+console.log(Student.collegeName);
 console.log("--------------------");
-console.log(harshal.nsf()); // call by Object : non-static
+harshal.nsf(); // call by Object : non-static
 console.log("--------------------");
-console.log(Student.display()); // call by classname : static
+Student.display("Harshal"); // call by classname : static
 
 // After function call it print undefined after output beacause both funtion dont have retun;
