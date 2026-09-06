@@ -3,3 +3,5 @@ dist/
 .DS_Store
 *.log
 .commandcode/taste.md
+.package-lock.json
+.package.json
